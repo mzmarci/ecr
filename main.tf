@@ -16,3 +16,6 @@ module "ECR" {
   source = "./module/ecr"
   
 }
+module "s3" {
+  source = "./module/backend"
+}
